@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3191B3D01FBD35BD0070D51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191B3CF1FBD35BD0070D51B /* AppDelegate.m */; };
+		3191B3D31FBD35BD0070D51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191B3D21FBD35BD0070D51B /* ViewController.m */; };
+		3191B3D61FBD35BD0070D51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3191B3D41FBD35BD0070D51B /* Main.storyboard */; };
+		3191B3D81FBD35BD0070D51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3191B3D71FBD35BD0070D51B /* Assets.xcassets */; };
+		3191B3DB1FBD35BD0070D51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3191B3D91FBD35BD0070D51B /* LaunchScreen.storyboard */; };
+		3191B3DE1FBD35BD0070D51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191B3DD1FBD35BD0070D51B /* main.m */; };
+		3191B3E71FBD368A0070D51B /* QMNewsSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191B3E61FBD368A0070D51B /* QMNewsSheetItem.m */; };
+		31B90DD21FBD82F200154FE8 /* QMNewsSheetMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B90DD11FBD82F200154FE8 /* QMNewsSheetMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3191B3CB1FBD35BD0070D51B /* QMNewsSheetMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMNewsSheetMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3191B3CE1FBD35BD0070D51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3191B3CF1FBD35BD0070D51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3191B3D11FBD35BD0070D51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3191B3D21FBD35BD0070D51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3191B3D51FBD35BD0070D51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3191B3D71FBD35BD0070D51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3191B3DA1FBD35BD0070D51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3191B3DC1FBD35BD0070D51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3191B3DD1FBD35BD0070D51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3191B3E51FBD368A0070D51B /* QMNewsSheetItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMNewsSheetItem.h; sourceTree = "<group>"; };
+		3191B3E61FBD368A0070D51B /* QMNewsSheetItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMNewsSheetItem.m; sourceTree = "<group>"; };
+		31B90DD01FBD82F200154FE8 /* QMNewsSheetMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMNewsSheetMenuView.h; sourceTree = "<group>"; };
+		31B90DD11FBD82F200154FE8 /* QMNewsSheetMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMNewsSheetMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3191B3C81FBD35BD0070D51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3191B3C21FBD35BD0070D51B = {
+			isa = PBXGroup;
+			children = (
+				3191B3CD1FBD35BD0070D51B /* QMNewsSheetMenu */,
+				3191B3CC1FBD35BD0070D51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3191B3CC1FBD35BD0070D51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3191B3CB1FBD35BD0070D51B /* QMNewsSheetMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3191B3CD1FBD35BD0070D51B /* QMNewsSheetMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3191B3E41FBD363D0070D51B /* QMSheetMenu */,
+				3191B3CE1FBD35BD0070D51B /* AppDelegate.h */,
+				3191B3CF1FBD35BD0070D51B /* AppDelegate.m */,
+				3191B3D11FBD35BD0070D51B /* ViewController.h */,
+				3191B3D21FBD35BD0070D51B /* ViewController.m */,
+				3191B3D41FBD35BD0070D51B /* Main.storyboard */,
+				3191B3D71FBD35BD0070D51B /* Assets.xcassets */,
+				3191B3D91FBD35BD0070D51B /* LaunchScreen.storyboard */,
+				3191B3DC1FBD35BD0070D51B /* Info.plist */,
+				3191B3DD1FBD35BD0070D51B /* main.m */,
+			);
+			path = QMNewsSheetMenu;
+			sourceTree = "<group>";
+		};
+		3191B3E41FBD363D0070D51B /* QMSheetMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3191B3E51FBD368A0070D51B /* QMNewsSheetItem.h */,
+				3191B3E61FBD368A0070D51B /* QMNewsSheetItem.m */,
+				31B90DD01FBD82F200154FE8 /* QMNewsSheetMenuView.h */,
+				31B90DD11FBD82F200154FE8 /* QMNewsSheetMenuView.m */,
+			);
+			path = QMSheetMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3191B3CA1FBD35BD0070D51B /* QMNewsSheetMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3191B3E11FBD35BD0070D51B /* Build configuration list for PBXNativeTarget "QMNewsSheetMenu" */;
+			buildPhases = (
+				3191B3C71FBD35BD0070D51B /* Sources */,
+				3191B3C81FBD35BD0070D51B /* Frameworks */,
+				3191B3C91FBD35BD0070D51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMNewsSheetMenu;
+			productName = QMNewsSheetMenu;
+			productReference = 3191B3CB1FBD35BD0070D51B /* QMNewsSheetMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3191B3C31FBD35BD0070D51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = LuQingMing;
+				TargetAttributes = {
+					3191B3CA1FBD35BD0070D51B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3191B3C61FBD35BD0070D51B /* Build configuration list for PBXProject "QMNewsSheetMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3191B3C21FBD35BD0070D51B;
+			productRefGroup = 3191B3CC1FBD35BD0070D51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3191B3CA1FBD35BD0070D51B /* QMNewsSheetMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3191B3C91FBD35BD0070D51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3191B3DB1FBD35BD0070D51B /* LaunchScreen.storyboard in Resources */,
+				3191B3D81FBD35BD0070D51B /* Assets.xcassets in Resources */,
+				3191B3D61FBD35BD0070D51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3191B3C71FBD35BD0070D51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3191B3D31FBD35BD0070D51B /* ViewController.m in Sources */,
+				3191B3DE1FBD35BD0070D51B /* main.m in Sources */,
+				3191B3D01FBD35BD0070D51B /* AppDelegate.m in Sources */,
+				31B90DD21FBD82F200154FE8 /* QMNewsSheetMenuView.m in Sources */,
+				3191B3E71FBD368A0070D51B /* QMNewsSheetItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3191B3D41FBD35BD0070D51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3191B3D51FBD35BD0070D51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3191B3D91FBD35BD0070D51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3191B3DA1FBD35BD0070D51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3191B3DF1FBD35BD0070D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3191B3E01FBD35BD0070D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3191B3E21FBD35BD0070D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9ER9R9RKY;
+				INFOPLIST_FILE = QMNewsSheetMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lqm.Project.com.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3191B3E31FBD35BD0070D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9ER9R9RKY;
+				INFOPLIST_FILE = QMNewsSheetMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lqm.Project.com.01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3191B3C61FBD35BD0070D51B /* Build configuration list for PBXProject "QMNewsSheetMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3191B3DF1FBD35BD0070D51B /* Debug */,
+				3191B3E01FBD35BD0070D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3191B3E11FBD35BD0070D51B /* Build configuration list for PBXNativeTarget "QMNewsSheetMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3191B3E21FBD35BD0070D51B /* Debug */,
+				3191B3E31FBD35BD0070D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3191B3C31FBD35BD0070D51B /* Project object */;
+}
