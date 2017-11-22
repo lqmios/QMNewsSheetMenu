@@ -18,17 +18,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击屏幕" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaC-Wv-rQo">
-                                <rect key="frame" x="152.5" y="323" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Km3-r5-Ycg">
+                                <rect key="frame" x="126" y="182" width="123" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.52443330899999996" blue="0.43146301079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="15M-fJ-4BR"/>
+                                </constraints>
+                                <state key="normal" title="头条新闻频道选择">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="TouTiaoNews:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5lO-WN-ZXo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RX-J6-yyX">
+                                <rect key="frame" x="126" y="262" width="123" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.52443330899999996" blue="0.43146301079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="支付宝应用选择">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aliAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNm-fB-hdc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="IaC-Wv-rQo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IaZ-EN-sqd"/>
-                            <constraint firstItem="IaC-Wv-rQo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="euW-bN-zPq"/>
+                            <constraint firstItem="Km3-r5-Ycg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="Aj0-uo-R0R"/>
+                            <constraint firstItem="5RX-J6-yyX" firstAttribute="height" secondItem="Km3-r5-Ycg" secondAttribute="height" id="MGy-ao-Vgi"/>
+                            <constraint firstItem="5RX-J6-yyX" firstAttribute="width" secondItem="Km3-r5-Ycg" secondAttribute="width" id="Unr-ty-5wU"/>
+                            <constraint firstItem="Km3-r5-Ycg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gYQ-Wp-uLx"/>
+                            <constraint firstItem="5RX-J6-yyX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="laO-qC-0z8"/>
+                            <constraint firstItem="5RX-J6-yyX" firstAttribute="top" secondItem="Km3-r5-Ycg" secondAttribute="bottom" constant="40" id="wDm-K5-Djp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -36,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17" y="93"/>
+            <point key="canvasLocation" x="16.800000000000001" y="92.203898050974516"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NCd-2y-oFd">
