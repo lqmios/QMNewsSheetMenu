@@ -191,21 +191,20 @@
     return nil;
 }
 //header高度
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
-    if (self.dataArray1 == 0) {
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
+{
+    if (self.dataArray1.count == 0) {
         if (section == 0) {
-            CGFloat width = (Screen_Width - 80) / 4;
-            self.messageLabel.frame = CGRectMake(0, 20, Screen_Width, width);
-            //显示没有更多信息
+            self.messageLabel.frame = CGRectMake(0, 30, Screen_Width, 100);
+            //显示没有更多的提示
             [self.collectionView addSubview:self.messageLabel];
-            return CGSizeMake(Screen_Width, width);
+            return CGSizeMake(Screen_Width, 100);
+        } else {
+            return CGSizeMake(Screen_Width, 25);
         }
-        else{
-            return CGSizeMake(Screen_Width, 20);
-        }
-    }else{
+    } else {
         [self.messageLabel removeFromSuperview];
-        return CGSizeMake(Screen_Width, 20);
+        return CGSizeMake(Screen_Width, 25);
     }
 }
 //footer 高度
